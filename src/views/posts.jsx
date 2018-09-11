@@ -1,6 +1,6 @@
 import React from 'react';
 import './posts.scss';
-import Post from './post.jsx';
+import Post from '../components/post.jsx';
 
 const dummies = [1,2,3]
 const Posts = (props) => (

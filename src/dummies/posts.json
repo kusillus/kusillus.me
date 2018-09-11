@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Shield Lieger en Blender",
+        "description": "hecho en Blender 2.64 + Freestyle, Modelado 3D por Guevara Benites Alexander y La Composición + Freestyle por Alex Aragón Calixto ",
+        "url": "https://www.facebook.com/photo.php?fbid=10200298476358991&set=a.10200089336850634.1073741825.1066266406&type=3&theater",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kusillus-io.appspot.com/o/zoids.jpg?alt=media&token=a45ae142-1f1a-4416-9752-cd2fded572c5"
+    },
+    {
+        "title": "[Webinar] Blender 3D",
+        "description": "Primer Webinar de diseño y animación en 3D con blender, hablaremos sobre como funciona y que necesita para sumergirnos en este fantástico mundo.",
+        "url": "https://www.youtube.com/watch?v=zD5AWBwIUrY",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kusillus-io.appspot.com/o/blender_webinar.jpg?alt=media&token=f99a1ff4-06bb-4f7d-8087-8961800ab88c"
+    },
+    {
+        "title": "[Tutorial]Elucidator-sword art online en Blender-2",
+        "description": "En esta parte del tutorial veremos como modelar la espada que usa kitito llamada elucidator, de la serie sword art online",
+        "url": "https://www.youtube.com/watch?v=uFvSz1NyxaQ",
+        "image": ""
+    },
+    {
+        "title": "[Tutorial]Elucidator-sword art online en Blender-1",
+        "description": "En esta parte del tutorial veremos como modelar la espada que usa kitito llamada elucidator, de la serie sword art online.",
+        "url": "https://www.youtube.com/watch?v=uFvSz1NyxaQ",
+        "image": ""
+    }
+]

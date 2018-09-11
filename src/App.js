@@ -3,6 +3,7 @@ import './App.scss';
 import Header from './components/header';
 import Body from './components/body';
 import Footer from './components/footer';
+import firebase from 'firebase';
 
 class App extends Component {
   constructor(props) {
@@ -18,14 +19,19 @@ class App extends Component {
       }
     }
     this.transformDescription = this.transformDescription.bind(this)
+    this.componentDidMount = this.componentDidMount.bind(this)
   }
   transformDescription(){
     let desc = this.state.description.replace(/°/g, '<b class="d_separator">|</b>')
     this.setState({description: desc})
     
   }
+  fetchDataFirebase(){
+    // firebase.database().ref()
+  }
   componentDidMount() {
     this.transformDescription()
+    this.fetchDataFirebase()
   }
   render() {
     return (

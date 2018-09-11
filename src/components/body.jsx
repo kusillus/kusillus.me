@@ -1,7 +1,7 @@
 import React from 'react';
 import './body.scss';
-import About from './about.jsx';
-import Posts from './posts.jsx'
+import About from '../views/about.jsx';
+import Posts from '../views/posts.jsx'
 
 const Body = (props) => (
     <div className="body__container">

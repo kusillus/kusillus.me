@@ -10,14 +10,20 @@ const About = (props) => (
             Sobre mi
         </div>
         <div className="card__body">
-            <span className="spacing1_3">
+            <span className="spacing1_3 text__info">
                 <p>
-                    Tengo 27 años, soy maestro pokémon de nacimiento y frontend de profesión.
+                    Tengo 27 años, soy <strong>maestro pokémon</strong> de nacimiento y <strong>frontend</strong> de profesión.
                 </p>
                 <p>
-                    Me apasiona el diseño y desarrollo web, actualmente estoy desarrollando proyectos usando React.js y aprendiendo a dominar el stack MERN.
+                    Me apasiona el <strong>diseño</strong> y <strong>desarrollo web</strong>, actualmente estoy desarrollando proyectos usando <strong>React.js</strong> y aprendiendo a dominar el <strong>stack MERN</strong>.
                 </p>
-                <br/>
+                <p>
+                    Fui desarrollador Frontend and UX/UI Designer en  
+                    <strong className="external__links" onClick={()=> window.open('http://www.imedia.pe/', '_blank')}> Imedia Comunicaciones </strong>
+                    y 
+                    <strong className="external__links" onClick={()=> window.open('http://www.pymhse.com/', '_blank')}> PYM AMEDIDA</strong>
+                    , actualmente vivo en Trujillo Perú.            
+                </p>
                 <p>
                     Sigueme en mis redes sociales para conocer mi trabajo.
                 </p>

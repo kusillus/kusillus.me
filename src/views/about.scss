@@ -6,6 +6,7 @@
         text-align: left;
         padding-left: 10px;
         margin-bottom: 8px;
+        font-size: 20px;
     }
     .card__body{
         border-radius: 4px;
@@ -16,6 +17,7 @@
         font-weight: 300;
         font-size: 14px;
         color: $text;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 }
 .spacing1_3{
@@ -31,6 +33,19 @@
     }
 }
 
+.text__info{
+    p{
+        padding-top: 6px;
+    }
+    strong{
+        font-weight: 400;
+        transition: all 0.3s;
+    }
+}
+.external__links{
+    cursor: pointer;
+    color: $principal;
+}
 
 @media screen and (min-width: 600px) {
     .card__body{
