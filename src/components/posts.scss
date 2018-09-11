@@ -1,0 +1,16 @@
+@import '../helpers/helpers.scss';
+.posts__container{
+    margin: 15px 0px 5px;
+    .posts__title{
+        color: $principal;
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 8px;
+    }
+    .posts__content{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+    }
+}
